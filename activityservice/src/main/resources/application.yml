@@ -1,0 +1,16 @@
+spring:
+  application:
+    name: ACTIVITYSERVICE
+  mongodb:
+      uri: mongodb+srv://rjpattnaik12345_db_user:GLhe7Yw1q9eBO2Ok@cluster0.w1ys8bb.mongodb.net/activitydb?retryWrites=true&w=majority
+
+server:
+  port: 8082
+
+eureka:
+  client:
+    serviceUrl:
+      defaultZone: http://localhost:8761/eureka/
+  instance:
+    prefer-ip-address: true
+    instance-id: localhost:8082
