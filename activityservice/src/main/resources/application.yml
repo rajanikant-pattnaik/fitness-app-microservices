@@ -2,7 +2,7 @@ spring:
   application:
     name: ACTIVITYSERVICE
   mongodb:
-      uri: mongodb+srv://rjpattnaik12345_db_user:GLhe7Yw1q9eBO2Ok@cluster0.w1ys8bb.mongodb.net/activitydb?retryWrites=true&w=majority
+      uri: 
 
 server:
   port: 8082
