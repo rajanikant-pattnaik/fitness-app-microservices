@@ -2,7 +2,7 @@ spring:
   application:
     name: ACTIVITYSERVICE
   mongodb:
-      uri: 
+      uri: ${MONGO_URI}
 
 server:
   port: 8082
